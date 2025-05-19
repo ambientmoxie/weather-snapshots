@@ -1,6 +1,6 @@
 {
-  "name": "starterkit-php-node",
-  "description": "starterkit/php-node",
+  "name": "weather-visual-dashboard",
+  "description": "A visual weather dashboard for major French cities using PHP and Vite.",
   "type": "module",
   "scripts": {
     "vite:dev": "VITE_ENV_MODE=dev vite",
@@ -13,7 +13,14 @@
     "build": "node scripts/set-env.mjs && npm run vite:build",
     "preview": "concurrently \"npm run build\" \"npm run server:local\" -c yellow,green"
   },
-  "keywords": [],
+   "keywords": [
+    "weather",
+    "vite",
+    "php",
+    "openweather",
+    "dashboard",
+    "visual"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
